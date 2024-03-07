@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./images/login.png">
+    <style>
+        .main {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            display: block;
+            text-align: center;
+            font-size: 18px;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .dark-mode{
+            background-color: maroon;
+            color: #fff;
+        }
+        
+        .toggle{
+            padding: 10px 20px;
+            border-radius: 20px;
+            border: 2px solid black;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .container a{
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="container">
+            <h1>Thank you for visiting our website</h1>
+            <p><a href="https://www.google.com">Click here</a> , to continue</p>
+            <button class="toggle" onclick="toggle()">Change mode</button>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
